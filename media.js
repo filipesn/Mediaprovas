@@ -1,9 +1,10 @@
 var media1 = 3.5;
 var media2 = 9.7;
 var media3 = 1.0;
-if (media1 + media2 + media3 >= 21.0){
-    console.log("Aprovado");
+let mediatotal = (media1 + media2 + media3) / 3;
+if (mediatotal >= 7.0){
+    console.log("Aprovado", mediatotal);
 }
 else{
-    console.log("Reprovado");
+    console.log("Reprovado", mediatotal);
 }
